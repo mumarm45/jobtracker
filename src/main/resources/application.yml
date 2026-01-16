@@ -6,7 +6,6 @@ spring:
   data:
     mongodb:
       uri: ${MONGODB_URI:mongodb://localhost:27017/jobtracker}
-      uri: mongodb://admin:password@localhost:27017/jobtracker?authSource=admin  // This is a sample app, so the complete URI is included here for demonstration purposes and must not be committed to Git.
 
 server:
   port: 8080
