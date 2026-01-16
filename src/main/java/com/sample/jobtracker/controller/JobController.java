@@ -5,7 +5,6 @@ import com.sample.jobtracker.model.Interview;
 import com.sample.jobtracker.model.Job;
 import com.sample.jobtracker.model.PaginatedResponse;
 import com.sample.jobtracker.service.IJobService;
-import com.sample.jobtracker.service.JobService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +17,7 @@ public class JobController {
 
     private final IJobService jobService;
 
-    public JobController(JobService jobService) {
+    public JobController(IJobService jobService) {
         this.jobService = jobService;
     }
 

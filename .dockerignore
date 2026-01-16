@@ -1,0 +1,47 @@
+# Build artifacts
+build/
+.gradle/
+bin/
+out/
+
+# IDE files
+.idea/
+.vscode/
+.claude/
+*.iml
+*.ipr
+*.iws
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+*.md
+HELP.md
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test files
+src/test/
+
+# Gradle wrapper (optional - uncomment if you want to exclude)
+# gradle/
+# gradlew
+# gradlew.bat
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~

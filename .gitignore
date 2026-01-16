@@ -37,3 +37,10 @@ out/
 .vscode/
 .claude/
 gradle/
+
+### Environment and Secrets ###
+.env
+.env.local
+.env.*.local
+application-*.yml
+!application-*.yml.example
